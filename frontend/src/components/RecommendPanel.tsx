@@ -36,8 +36,6 @@ export function RecommendPanel({ backendUp, sampleRecs }: RecommendPanelProps) {
     ? activeResult?.recommendations ?? fallbackRec?.recommendations ?? []
     : offlineResult?.recommendations ?? [];
 
-  const showingFallback = backendUp && !activeResult && !!fallbackRec;
-
   return (
     <section className="panel">
       <div className="panel-header">
@@ -114,12 +112,6 @@ export function RecommendPanel({ backendUp, sampleRecs }: RecommendPanelProps) {
                 ))}
               </div>
             )}
-          </div>
-        )}
-
-        {showingFallback && (
-          <div className="offline-note">
-            Showing pre-computed recommendations for this user.
           </div>
         )}
 
