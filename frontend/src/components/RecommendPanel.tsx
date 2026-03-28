@@ -44,31 +44,51 @@ export function RecommendPanel({ backendUp, sampleRecs }: RecommendPanelProps) {
 
       <div className="panel-body">
         {backendUp ? (
-          <form onSubmit={handleSubmit} className="rec-form">
-            <label>
-              User ID
-              <input
-                type="number"
-                value={userId}
-                onChange={(e) => setUserId(e.target.value)}
-                placeholder="e.g. 1"
-                min={1}
-              />
-            </label>
-            <label>
-              Top K
-              <input
-                type="number"
-                value={k}
-                onChange={(e) => setK(parseInt(e.target.value) || 10)}
-                min={1}
-                max={100}
-              />
-            </label>
-            <button type="submit" disabled={loading}>
-              {loading ? "Loading…" : "Get Recommendations"}
-            </button>
-          </form>
+          <div>
+            <form onSubmit={handleSubmit} className="rec-form">
+              <label>
+                User ID
+                <input
+                  type="number"
+                  value={userId}
+                  onChange={(e) => setUserId(e.target.value)}
+                  placeholder="1 – 6040"
+                  min={1}
+                  max={6040}
+                />
+              </label>
+              <label>
+                Top K
+                <input
+                  type="number"
+                  value={k}
+                  onChange={(e) => setK(parseInt(e.target.value) || 10)}
+                  min={1}
+                  max={100}
+                />
+              </label>
+              <button type="submit" disabled={loading}>
+                {loading ? "Loading…" : "Get Recommendations"}
+              </button>
+            </form>
+            {sampleRecs && sampleRecs.length > 0 && (
+              <div className="quick-pick">
+                <span className="quick-pick-label">Try a sample user:</span>
+                <div className="user-chips">
+                  {sampleRecs.map((r) => (
+                    <button
+                      key={r.user_id}
+                      className={`chip ${userId === String(r.user_id) ? "chip-active" : ""}`}
+                      onClick={() => setUserId(String(r.user_id))}
+                      type="button"
+                    >
+                      User {r.user_id}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
         ) : (
           <div>
             <div className="offline-note">

@@ -351,6 +351,8 @@ body {
 }
 .error-msg { color: #f87171; font-size: 14px; margin: 10px 0; }
 
+.quick-pick { margin-bottom: 20px; }
+.quick-pick-label { font-size: 12px; color: var(--text-muted); display: block; margin-bottom: 8px; }
 .user-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
 .chip {
   padding: 5px 14px;
