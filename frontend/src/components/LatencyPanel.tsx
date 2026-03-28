@@ -17,11 +17,14 @@ export function LatencyPanel({ latency }: LatencyPanelProps) {
   if (!latency) {
     return (
       <section className="panel">
-        <h2>Latency Summary</h2>
-        <p className="muted">
-          Latency data not available. Run scripts/measure_latency.py while the
-          API is running.
-        </p>
+        <div className="panel-header">
+          <h2>Latency</h2>
+        </div>
+        <div className="panel-body">
+          <p className="muted">
+            Latency data not available. Run scripts/measure_latency.py while the API is running.
+          </p>
+        </div>
       </section>
     );
   }
@@ -38,36 +41,42 @@ export function LatencyPanel({ latency }: LatencyPanelProps) {
 
   return (
     <section className="panel">
-      <h2>Latency Summary</h2>
-      <p className="muted">
-        End-to-end /recommend endpoint latency measured over {latency.num_requests} requests.
-        {latency.num_errors > 0 && ` (${latency.num_errors} errors excluded)`}
-      </p>
+      <div className="panel-header">
+        <h2>Latency</h2>
+        <p style={{ marginTop: 6 }}>
+          End-to-end /recommend latency over {latency.num_requests} requests.
+          {latency.num_errors > 0 && ` ${latency.num_errors} errors excluded.`}
+        </p>
+      </div>
+      <div className="panel-body">
+        <div className="stats-grid" style={{ marginBottom: 24 }}>
+          <StatCard label="Mean" value={`${latency.mean_ms} ms`} />
+          <StatCard label="Median" value={`${latency.median_ms} ms`} />
+          <StatCard label="P90" value={`${latency.p90_ms} ms`} />
+          <StatCard label="P95" value={`${latency.p95_ms} ms`} />
+          <StatCard label="P99" value={`${latency.p99_ms} ms`} />
+          <StatCard label="Requests" value={latency.num_requests.toLocaleString()} />
+        </div>
 
-      <ResponsiveContainer width="100%" height={240}>
-        <BarChart data={chartData} margin={{ top: 8, right: 24, left: 0, bottom: 8 }}>
-          <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
-          <XAxis dataKey="percentile" tick={{ fill: "#94a3b8", fontSize: 12 }} />
-          <YAxis
-            unit="ms"
-            tick={{ fill: "#94a3b8", fontSize: 12 }}
-            label={{ value: "ms", angle: -90, position: "insideLeft", fill: "#94a3b8" }}
-          />
-          <Tooltip
-            contentStyle={{ background: "#1e293b", border: "1px solid #334155", color: "#f1f5f9" }}
-            formatter={(v) => [`${v} ms`]}
-          />
-          <Bar dataKey="ms" fill="#3b82f6" radius={[3, 3, 0, 0]} />
-        </BarChart>
-      </ResponsiveContainer>
-
-      <div className="stats-grid" style={{ marginTop: "1rem" }}>
-        <StatCard label="Mean" value={`${latency.mean_ms} ms`} />
-        <StatCard label="Median" value={`${latency.median_ms} ms`} />
-        <StatCard label="P90" value={`${latency.p90_ms} ms`} />
-        <StatCard label="P95" value={`${latency.p95_ms} ms`} />
-        <StatCard label="P99" value={`${latency.p99_ms} ms`} />
-        <StatCard label="Requests" value={latency.num_requests.toLocaleString()} />
+        <ResponsiveContainer width="100%" height={220}>
+          <BarChart data={chartData} margin={{ top: 4, right: 16, left: 0, bottom: 4 }}>
+            <CartesianGrid strokeDasharray="3 3" stroke="#1e2e42" vertical={false} />
+            <XAxis dataKey="percentile" tick={{ fill: "#7c92aa", fontSize: 11 }} axisLine={false} tickLine={false} />
+            <YAxis
+              unit="ms"
+              tick={{ fill: "#7c92aa", fontSize: 11 }}
+              axisLine={false}
+              tickLine={false}
+              width={44}
+            />
+            <Tooltip
+              contentStyle={{ background: "#1e293b", border: "1px solid #2d3f55", color: "#f1f5f9", borderRadius: 6, fontSize: 12 }}
+              formatter={(v) => [`${v} ms`]}
+              cursor={{ fill: "rgba(255,255,255,0.03)" }}
+            />
+            <Bar dataKey="ms" fill="#3b82f6" radius={[2, 2, 0, 0]} maxBarSize={32} />
+          </BarChart>
+        </ResponsiveContainer>
       </div>
     </section>
   );

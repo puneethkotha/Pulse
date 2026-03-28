@@ -33,90 +33,98 @@ export function RecommendPanel({ backendUp, sampleRecs }: RecommendPanelProps) {
 
   return (
     <section className="panel">
-      <h2>Recommendation Demo</h2>
+      <div className="panel-header">
+        <h2>Recommendation Demo</h2>
+        <p style={{ marginTop: 6 }}>
+          {backendUp
+            ? "Enter a user ID to retrieve personalized recommendations from the live pipeline."
+            : "Backend is offline — showing pre-computed recommendations from the pipeline."}
+        </p>
+      </div>
 
-      {backendUp ? (
-        <form onSubmit={handleSubmit} className="rec-form">
-          <label>
-            User ID
-            <input
-              type="number"
-              value={userId}
-              onChange={(e) => setUserId(e.target.value)}
-              placeholder="e.g. 1"
-              min={1}
-            />
-          </label>
-          <label>
-            Top K
-            <input
-              type="number"
-              value={k}
-              onChange={(e) => setK(parseInt(e.target.value) || 10)}
-              min={1}
-              max={100}
-            />
-          </label>
-          <button type="submit" disabled={loading}>
-            {loading ? "Loading..." : "Get Recommendations"}
-          </button>
-        </form>
-      ) : (
-        <div>
-          <p className="offline-note">
-            Backend is offline. Showing pre-computed recommendations from the
-            pipeline. Select a user below.
-          </p>
-          {sampleRecs && (
-            <div className="user-chips">
-              {sampleRecs.map((r) => (
-                <button
-                  key={r.user_id}
-                  className={`chip ${offlineUserId === r.user_id ? "chip-active" : ""}`}
-                  onClick={() => setOfflineUserId(r.user_id)}
-                >
-                  User {r.user_id}
-                </button>
-              ))}
+      <div className="panel-body">
+        {backendUp ? (
+          <form onSubmit={handleSubmit} className="rec-form">
+            <label>
+              User ID
+              <input
+                type="number"
+                value={userId}
+                onChange={(e) => setUserId(e.target.value)}
+                placeholder="e.g. 1"
+                min={1}
+              />
+            </label>
+            <label>
+              Top K
+              <input
+                type="number"
+                value={k}
+                onChange={(e) => setK(parseInt(e.target.value) || 10)}
+                min={1}
+                max={100}
+              />
+            </label>
+            <button type="submit" disabled={loading}>
+              {loading ? "Loading…" : "Get Recommendations"}
+            </button>
+          </form>
+        ) : (
+          <div>
+            <div className="offline-note">
+              Select a user below to view pre-computed recommendations.
             </div>
-          )}
-        </div>
-      )}
+            {sampleRecs && (
+              <div className="user-chips">
+                {sampleRecs.map((r) => (
+                  <button
+                    key={r.user_id}
+                    className={`chip ${offlineUserId === r.user_id ? "chip-active" : ""}`}
+                    onClick={() => setOfflineUserId(r.user_id)}
+                  >
+                    User {r.user_id}
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
+        )}
 
-      {error && <p className="error-msg">{error}</p>}
+        {error && <p className="error-msg">{error}</p>}
 
-      {backendUp && activeResult && (
-        <div className="rec-meta">
-          <span>Latency: <strong>{activeResult.latency_ms} ms</strong></span>
-          <span>Source: <strong>{activeResult.retrieval_source}</strong></span>
-          <span>Online features: <strong>{activeResult.online_features_used ? "yes" : "no"}</strong></span>
-        </div>
-      )}
+        {backendUp && activeResult && (
+          <div className="rec-meta">
+            <span>Latency <strong>{activeResult.latency_ms} ms</strong></span>
+            <span>Source <strong>{activeResult.retrieval_source}</strong></span>
+            <span>Online features <strong>{activeResult.online_features_used ? "yes" : "no"}</strong></span>
+          </div>
+        )}
 
-      {showRecs.length > 0 && (
-        <table className="rec-table">
-          <thead>
-            <tr>
-              <th>#</th>
-              <th>Title</th>
-              <th>Genres</th>
-              <th>Avg Rating</th>
-              <th>Score</th>
-            </tr>
-          </thead>
-          <tbody>
-            {showRecs.map((rec, i) => (
-              <tr key={rec.item_id}>
-                <td>{i + 1}</td>
-                <td>{rec.title}</td>
-                <td>{rec.genres.join(", ")}</td>
-                <td>{rec.avg_rating.toFixed(2)}</td>
-                <td>{rec.score.toFixed(4)}</td>
+        {showRecs.length > 0 && (
+          <table className="rec-table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Title</th>
+                <th>Genres</th>
+                <th>Avg Rating</th>
+                <th>Score</th>
               </tr>
-            ))}
-          </tbody>
-        </table>
-      )}
+            </thead>
+            <tbody>
+              {showRecs.map((rec, i) => (
+                <tr key={rec.item_id}>
+                  <td>{i + 1}</td>
+                  <td>{rec.title}</td>
+                  <td>{rec.genres.join(", ")}</td>
+                  <td>{rec.avg_rating.toFixed(2)}</td>
+                  <td>{rec.score.toFixed(4)}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        )}
+      </div>
     </section>
   );
 }

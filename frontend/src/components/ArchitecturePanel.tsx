@@ -2,7 +2,6 @@ export function ArchitecturePanel() {
   const layers = [
     {
       name: "Data Layer",
-      color: "#475569",
       items: [
         "MovieLens 1M (1M interactions, 6040 users, 3706 items)",
         "User-aware temporal split: 80/10/10",
@@ -12,7 +11,6 @@ export function ArchitecturePanel() {
     },
     {
       name: "Offline Training",
-      color: "#1d4ed8",
       items: [
         "Two-tower PyTorch model — user tower + item tower",
         "In-batch negative contrastive loss (temperature=0.07)",
@@ -23,7 +21,6 @@ export function ArchitecturePanel() {
     },
     {
       name: "Indexing",
-      color: "#7c3aed",
       items: [
         "FAISS IVF index over item embeddings",
         "ANN retrieval — top-100 candidates per query",
@@ -32,7 +29,6 @@ export function ArchitecturePanel() {
     },
     {
       name: "Streaming",
-      color: "#0f766e",
       items: [
         "Kafka producer — simulates/replays interaction events",
         "Kafka consumer — updates rolling user features",
@@ -42,7 +38,6 @@ export function ArchitecturePanel() {
     },
     {
       name: "Serving",
-      color: "#b45309",
       items: [
         "FastAPI — GET /recommend, POST /event, GET /metrics",
         "Reads online features from Redis if available",
@@ -54,18 +49,23 @@ export function ArchitecturePanel() {
 
   return (
     <section className="panel">
-      <h2>Architecture</h2>
-      <div className="arch-layers">
-        {layers.map((layer) => (
-          <div key={layer.name} className="arch-layer" style={{ borderLeftColor: layer.color }}>
-            <h4 style={{ color: layer.color }}>{layer.name}</h4>
-            <ul>
-              {layer.items.map((item) => (
-                <li key={item}>{item}</li>
-              ))}
-            </ul>
-          </div>
-        ))}
+      <div className="panel-header">
+        <h2>Architecture</h2>
+        <p style={{ marginTop: 6 }}>Full system architecture from data ingestion to serving.</p>
+      </div>
+      <div className="panel-body">
+        <div className="arch-layers">
+          {layers.map((layer) => (
+            <div key={layer.name} className="arch-layer">
+              <div className="arch-layer-title">{layer.name}</div>
+              <ul>
+                {layer.items.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );
