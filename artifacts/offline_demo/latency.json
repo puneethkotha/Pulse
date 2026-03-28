@@ -1,0 +1,11 @@
+{
+  "num_requests": 200,
+  "num_errors": 0,
+  "mean_ms": 6.38,
+  "median_ms": 6.04,
+  "p90_ms": 7.31,
+  "p95_ms": 8.66,
+  "p99_ms": 15.78,
+  "min_ms": 4.84,
+  "max_ms": 17.85
+}

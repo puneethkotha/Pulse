@@ -1,0 +1,17 @@
+two_tower:
+  user_embedding_dim: 64
+  item_embedding_dim: 64
+  tower_hidden_dims: [256, 128]
+  output_dim: 64
+  dropout: 0.2
+  temperature: 0.07
+
+reranker:
+  input_dim: 44
+  hidden_dims: [128, 64, 32]
+  output_dim: 1
+  dropout: 0.2
+
+bm25:
+  k1: 1.5
+  b: 0.75

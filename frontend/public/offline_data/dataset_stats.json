@@ -1,0 +1,10 @@
+{
+  "num_users": 6040,
+  "num_items": 3706,
+  "num_train": 797758,
+  "num_val": 99692,
+  "num_test": 102759,
+  "total_interactions": 1000209,
+  "item_feature_dim": 21,
+  "user_feature_dim": 30
+}

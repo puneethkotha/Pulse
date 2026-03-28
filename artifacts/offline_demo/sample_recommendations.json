@@ -1,0 +1,2048 @@
+[
+  {
+    "user_id": 5239,
+    "recommendations": [
+      {
+        "item_id": 1124,
+        "score": 0.000572,
+        "title": "On Golden Pond (1981)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.7407
+      },
+      {
+        "item_id": 2474,
+        "score": 0.000524,
+        "title": "Color of Money, The (1986)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.4606
+      },
+      {
+        "item_id": 3098,
+        "score": 0.000494,
+        "title": "Natural, The (1984)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.8321
+      },
+      {
+        "item_id": 2312,
+        "score": 0.000489,
+        "title": "Children of a Lesser God (1986)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.8278
+      },
+      {
+        "item_id": 1962,
+        "score": 0.000459,
+        "title": "Driving Miss Daisy (1989)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.8773
+      },
+      {
+        "item_id": 2739,
+        "score": 0.000419,
+        "title": "Color Purple, The (1985)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.8556
+      },
+      {
+        "item_id": 2313,
+        "score": 0.000407,
+        "title": "Elephant Man, The (1980)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 4.0131
+      },
+      {
+        "item_id": 2240,
+        "score": 0.000377,
+        "title": "My Bodyguard (1980)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.5084
+      },
+      {
+        "item_id": 3169,
+        "score": 0.000368,
+        "title": "Falcon and the Snowman, The (1984)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.5138
+      },
+      {
+        "item_id": 2745,
+        "score": 0.000356,
+        "title": "Mission, The (1986)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.8952
+      }
+    ]
+  },
+  {
+    "user_id": 913,
+    "recommendations": [
+      {
+        "item_id": 592,
+        "score": 0.000158,
+        "title": "Batman (1989)",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Crime",
+          "Drama"
+        ],
+        "avg_rating": 3.601
+      },
+      {
+        "item_id": 2001,
+        "score": 0.000115,
+        "title": "Lethal Weapon 2 (1989)",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Crime",
+          "Drama"
+        ],
+        "avg_rating": 3.545
+      },
+      {
+        "item_id": 2409,
+        "score": 9.6e-05,
+        "title": "Rocky II (1979)",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "avg_rating": 3.1775
+      },
+      {
+        "item_id": 2410,
+        "score": 9e-05,
+        "title": "Rocky III (1982)",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "avg_rating": 2.8753
+      },
+      {
+        "item_id": 2411,
+        "score": 7.1e-05,
+        "title": "Rocky IV (1985)",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "avg_rating": 2.6453
+      },
+      {
+        "item_id": 1378,
+        "score": 6.4e-05,
+        "title": "Young Guns (1988)",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Western"
+        ],
+        "avg_rating": 3.4181
+      },
+      {
+        "item_id": 2421,
+        "score": 5.1e-05,
+        "title": "Karate Kid, Part II, The (1986)",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama"
+        ],
+        "avg_rating": 2.6771
+      },
+      {
+        "item_id": 1291,
+        "score": 4.8e-05,
+        "title": "Indiana Jones and the Last Crusade (1989)",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "avg_rating": 4.1333
+      },
+      {
+        "item_id": 3740,
+        "score": 3.7e-05,
+        "title": "Big Trouble in Little China (1986)",
+        "genres": [
+          "Action",
+          "Comedy"
+        ],
+        "avg_rating": 3.4144
+      },
+      {
+        "item_id": 2115,
+        "score": 2.9e-05,
+        "title": "Indiana Jones and the Temple of Doom (1984)",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "avg_rating": 3.6761
+      }
+    ]
+  },
+  {
+    "user_id": 205,
+    "recommendations": [
+      {
+        "item_id": 3030,
+        "score": 0.000237,
+        "title": "Yojimbo (1961)",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Western"
+        ],
+        "avg_rating": 4.4047
+      },
+      {
+        "item_id": 2019,
+        "score": 0.000127,
+        "title": "Seven Samurai (The Magnificent Seven) (Shichinin no samurai) (1954)",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "avg_rating": 4.5605
+      },
+      {
+        "item_id": 1273,
+        "score": 7.6e-05,
+        "title": "Down by Law (1986)",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "avg_rating": 3.9658
+      },
+      {
+        "item_id": 3307,
+        "score": 7.1e-05,
+        "title": "City Lights (1931)",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "avg_rating": 4.3875
+      },
+      {
+        "item_id": 3521,
+        "score": 5.5e-05,
+        "title": "Mystery Train (1989)",
+        "genres": [
+          "Comedy",
+          "Crime",
+          "Drama"
+        ],
+        "avg_rating": 3.8777
+      },
+      {
+        "item_id": 2300,
+        "score": 5.2e-05,
+        "title": "Producers, The (1968)",
+        "genres": [
+          "Comedy",
+          "Musical"
+        ],
+        "avg_rating": 4.1444
+      },
+      {
+        "item_id": 910,
+        "score": 4.4e-05,
+        "title": "Some Like It Hot (1959)",
+        "genres": [
+          "Comedy",
+          "Crime"
+        ],
+        "avg_rating": 4.3005
+      },
+      {
+        "item_id": 2238,
+        "score": 3.6e-05,
+        "title": "Seven Beauties (Pasqualino Settebellezze) (1976)",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "avg_rating": 3.8312
+      },
+      {
+        "item_id": 3462,
+        "score": 3.3e-05,
+        "title": "Modern Times (1936)",
+        "genres": [
+          "Comedy"
+        ],
+        "avg_rating": 4.2361
+      },
+      {
+        "item_id": 905,
+        "score": 2.9e-05,
+        "title": "It Happened One Night (1934)",
+        "genres": [
+          "Comedy"
+        ],
+        "avg_rating": 4.2807
+      }
+    ]
+  },
+  {
+    "user_id": 2254,
+    "recommendations": [
+      {
+        "item_id": 858,
+        "score": 0.000851,
+        "title": "Godfather, The (1972)",
+        "genres": [
+          "Action",
+          "Crime",
+          "Drama"
+        ],
+        "avg_rating": 4.525
+      },
+      {
+        "item_id": 1221,
+        "score": 0.000718,
+        "title": "Godfather: Part II, The (1974)",
+        "genres": [
+          "Action",
+          "Crime",
+          "Drama"
+        ],
+        "avg_rating": 4.3576
+      },
+      {
+        "item_id": 1954,
+        "score": 0.000636,
+        "title": "Rocky (1976)",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "avg_rating": 3.9433
+      },
+      {
+        "item_id": 2194,
+        "score": 0.000437,
+        "title": "Untouchables, The (1987)",
+        "genres": [
+          "Action",
+          "Crime",
+          "Drama"
+        ],
+        "avg_rating": 4.008
+      },
+      {
+        "item_id": 2019,
+        "score": 0.000365,
+        "title": "Seven Samurai (The Magnificent Seven) (Shichinin no samurai) (1954)",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "avg_rating": 4.5605
+      },
+      {
+        "item_id": 1201,
+        "score": 0.000324,
+        "title": "Good, The Bad and The Ugly, The (1966)",
+        "genres": [
+          "Action",
+          "Western"
+        ],
+        "avg_rating": 4.1338
+      },
+      {
+        "item_id": 2028,
+        "score": 0.000261,
+        "title": "Saving Private Ryan (1998)",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "avg_rating": 4.3374
+      },
+      {
+        "item_id": 2000,
+        "score": 0.000241,
+        "title": "Lethal Weapon (1987)",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Crime",
+          "Drama"
+        ],
+        "avg_rating": 3.8869
+      },
+      {
+        "item_id": 1222,
+        "score": 0.00024,
+        "title": "Full Metal Jacket (1987)",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "avg_rating": 4.1108
+      },
+      {
+        "item_id": 1953,
+        "score": 0.000226,
+        "title": "French Connection, The (1971)",
+        "genres": [
+          "Action",
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "avg_rating": 4.0987
+      }
+    ]
+  },
+  {
+    "user_id": 2007,
+    "recommendations": [
+      {
+        "item_id": 908,
+        "score": 0.00146,
+        "title": "North by Northwest (1959)",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "avg_rating": 4.384
+      },
+      {
+        "item_id": 923,
+        "score": 0.00116,
+        "title": "Citizen Kane (1941)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 4.3889
+      },
+      {
+        "item_id": 1193,
+        "score": 0.000858,
+        "title": "One Flew Over the Cuckoo's Nest (1975)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 4.3907
+      },
+      {
+        "item_id": 3468,
+        "score": 0.0005,
+        "title": "Hustler, The (1961)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 4.24
+      },
+      {
+        "item_id": 1250,
+        "score": 0.000451,
+        "title": "Bridge on the River Kwai, The (1957)",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "avg_rating": 4.387
+      },
+      {
+        "item_id": 1237,
+        "score": 0.000438,
+        "title": "Seventh Seal, The (Sjunde inseglet, Det) (1957)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 4.2308
+      },
+      {
+        "item_id": 2019,
+        "score": 0.00037,
+        "title": "Seven Samurai (The Magnificent Seven) (Shichinin no samurai) (1954)",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "avg_rating": 4.5605
+      },
+      {
+        "item_id": 924,
+        "score": 0.000366,
+        "title": "2001: A Space Odyssey (1968)",
+        "genres": [
+          "Drama",
+          "Mystery",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "avg_rating": 4.0688
+      },
+      {
+        "item_id": 858,
+        "score": 0.000358,
+        "title": "Godfather, The (1972)",
+        "genres": [
+          "Action",
+          "Crime",
+          "Drama"
+        ],
+        "avg_rating": 4.525
+      },
+      {
+        "item_id": 3089,
+        "score": 0.000313,
+        "title": "Bicycle Thief, The (Ladri di biciclette) (1948)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 4.3571
+      }
+    ]
+  },
+  {
+    "user_id": 1829,
+    "recommendations": [
+      {
+        "item_id": 1354,
+        "score": 0.000245,
+        "title": "Breaking the Waves (1996)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.824
+      },
+      {
+        "item_id": 2725,
+        "score": 9e-05,
+        "title": "Twin Falls Idaho (1999)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.7474
+      },
+      {
+        "item_id": 326,
+        "score": 7.2e-05,
+        "title": "To Live (Huozhe) (1994)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 4.3443
+      },
+      {
+        "item_id": 501,
+        "score": 6.7e-05,
+        "title": "Naked (1993)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.6064
+      },
+      {
+        "item_id": 1699,
+        "score": 6.1e-05,
+        "title": "Butcher Boy, The (1998)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.5032
+      },
+      {
+        "item_id": 456,
+        "score": 5.6e-05,
+        "title": "Fresh (1994)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 4.0
+      },
+      {
+        "item_id": 1922,
+        "score": 3.4e-05,
+        "title": "Whatever (1998)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.4231
+      },
+      {
+        "item_id": 846,
+        "score": 2.8e-05,
+        "title": "Flirt (1995)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.7368
+      },
+      {
+        "item_id": 30,
+        "score": 2.6e-05,
+        "title": "Shanghai Triad (Yao a yao yao dao waipo qiao) (1995)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.6486
+      },
+      {
+        "item_id": 1428,
+        "score": 2.5e-05,
+        "title": "Angel Baby (1995)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.25
+      }
+    ]
+  },
+  {
+    "user_id": 1144,
+    "recommendations": [
+      {
+        "item_id": 3160,
+        "score": 0.000747,
+        "title": "Magnolia (1999)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.894
+      },
+      {
+        "item_id": 3578,
+        "score": 0.000689,
+        "title": "Gladiator (2000)",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "avg_rating": 4.106
+      },
+      {
+        "item_id": 3408,
+        "score": 0.000599,
+        "title": "Erin Brockovich (2000)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.8639
+      },
+      {
+        "item_id": 3510,
+        "score": 0.000591,
+        "title": "Frequency (2000)",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "avg_rating": 3.7588
+      },
+      {
+        "item_id": 2959,
+        "score": 0.000589,
+        "title": "Fight Club (1999)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 4.0772
+      },
+      {
+        "item_id": 3006,
+        "score": 0.000492,
+        "title": "Insider, The (1999)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 4.0588
+      },
+      {
+        "item_id": 2858,
+        "score": 0.00049,
+        "title": "American Beauty (1999)",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "avg_rating": 4.3174
+      },
+      {
+        "item_id": 3897,
+        "score": 0.000418,
+        "title": "Almost Famous (2000)",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "avg_rating": 4.2264
+      },
+      {
+        "item_id": 3916,
+        "score": 0.000374,
+        "title": "Remember the Titans (2000)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.9245
+      },
+      {
+        "item_id": 3176,
+        "score": 0.000335,
+        "title": "Talented Mr. Ripley, The (1999)",
+        "genres": [
+          "Drama",
+          "Mystery",
+          "Thriller"
+        ],
+        "avg_rating": 3.5034
+      }
+    ]
+  },
+  {
+    "user_id": 6034,
+    "recommendations": [
+      {
+        "item_id": 3334,
+        "score": 0.000164,
+        "title": "Key Largo (1948)",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Film-Noir",
+          "Thriller"
+        ],
+        "avg_rating": 4.0824
+      },
+      {
+        "item_id": 3030,
+        "score": 0.000143,
+        "title": "Yojimbo (1961)",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Western"
+        ],
+        "avg_rating": 4.4047
+      },
+      {
+        "item_id": 3435,
+        "score": 8.5e-05,
+        "title": "Double Indemnity (1944)",
+        "genres": [
+          "Crime",
+          "Film-Noir"
+        ],
+        "avg_rating": 4.4156
+      },
+      {
+        "item_id": 922,
+        "score": 8.2e-05,
+        "title": "Sunset Blvd. (a.k.a. Sunset Boulevard) (1950)",
+        "genres": [
+          "Film-Noir"
+        ],
+        "avg_rating": 4.4915
+      },
+      {
+        "item_id": 1252,
+        "score": 7.6e-05,
+        "title": "Chinatown (1974)",
+        "genres": [
+          "Film-Noir",
+          "Mystery",
+          "Thriller"
+        ],
+        "avg_rating": 4.3392
+      },
+      {
+        "item_id": 913,
+        "score": 7.2e-05,
+        "title": "Maltese Falcon, The (1941)",
+        "genres": [
+          "Film-Noir",
+          "Mystery"
+        ],
+        "avg_rating": 4.396
+      },
+      {
+        "item_id": 1284,
+        "score": 6.2e-05,
+        "title": "Big Sleep, The (1946)",
+        "genres": [
+          "Film-Noir",
+          "Mystery"
+        ],
+        "avg_rating": 4.3124
+      },
+      {
+        "item_id": 3307,
+        "score": 5.4e-05,
+        "title": "City Lights (1931)",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "avg_rating": 4.3875
+      },
+      {
+        "item_id": 1248,
+        "score": 5e-05,
+        "title": "Touch of Evil (1958)",
+        "genres": [
+          "Crime",
+          "Film-Noir",
+          "Thriller"
+        ],
+        "avg_rating": 4.216
+      },
+      {
+        "item_id": 2182,
+        "score": 4.7e-05,
+        "title": "Wrong Man, The (1956)",
+        "genres": [
+          "Drama",
+          "Film-Noir",
+          "Thriller"
+        ],
+        "avg_rating": 3.5816
+      }
+    ]
+  },
+  {
+    "user_id": 840,
+    "recommendations": [
+      {
+        "item_id": 953,
+        "score": 0.000395,
+        "title": "It's a Wonderful Life (1946)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 4.299
+      },
+      {
+        "item_id": 2398,
+        "score": 0.000232,
+        "title": "Miracle on 34th Street (1947)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.9605
+      },
+      {
+        "item_id": 954,
+        "score": 0.000193,
+        "title": "Mr. Smith Goes to Washington (1939)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 4.2402
+      },
+      {
+        "item_id": 3548,
+        "score": 0.000125,
+        "title": "Auntie Mame (1958)",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "avg_rating": 3.8358
+      },
+      {
+        "item_id": 1099,
+        "score": 8.7e-05,
+        "title": "Christmas Carol, A (1938)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.9897
+      },
+      {
+        "item_id": 3350,
+        "score": 4.7e-05,
+        "title": "Raisin in the Sun, A (1961)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.972
+      },
+      {
+        "item_id": 2857,
+        "score": 4.6e-05,
+        "title": "Yellow Submarine (1968)",
+        "genres": [
+          "Animation",
+          "Musical"
+        ],
+        "avg_rating": 3.6967
+      },
+      {
+        "item_id": 1012,
+        "score": 2.6e-05,
+        "title": "Old Yeller (1957)",
+        "genres": [
+          "Children's",
+          "Drama"
+        ],
+        "avg_rating": 3.7043
+      },
+      {
+        "item_id": 1013,
+        "score": 2.4e-05,
+        "title": "Parent Trap, The (1961)",
+        "genres": [
+          "Children's",
+          "Drama"
+        ],
+        "avg_rating": 3.5659
+      },
+      {
+        "item_id": 3396,
+        "score": 2.2e-05,
+        "title": "Muppet Movie, The (1979)",
+        "genres": [
+          "Children's",
+          "Comedy"
+        ],
+        "avg_rating": 3.8562
+      }
+    ]
+  },
+  {
+    "user_id": 5544,
+    "recommendations": [
+      {
+        "item_id": 2688,
+        "score": 0.000896,
+        "title": "General's Daughter, The (1999)",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "avg_rating": 3.1418
+      },
+      {
+        "item_id": 2712,
+        "score": 0.000731,
+        "title": "Eyes Wide Shut (1999)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.2011
+      },
+      {
+        "item_id": 2433,
+        "score": 0.000673,
+        "title": "Civil Action, A (1998)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.3595
+      },
+      {
+        "item_id": 2541,
+        "score": 0.000628,
+        "title": "Cruel Intentions (1999)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.2218
+      },
+      {
+        "item_id": 2734,
+        "score": 0.000567,
+        "title": "Mosquito Coast, The (1986)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.3584
+      },
+      {
+        "item_id": 2908,
+        "score": 0.000514,
+        "title": "Boys Don't Cry (1999)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 4.0141
+      },
+      {
+        "item_id": 2702,
+        "score": 0.000419,
+        "title": "Summer of Sam (1999)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.0709
+      },
+      {
+        "item_id": 2188,
+        "score": 0.000381,
+        "title": "54 (1998)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 2.7645
+      },
+      {
+        "item_id": 3298,
+        "score": 0.000373,
+        "title": "Boiler Room (2000)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.4593
+      },
+      {
+        "item_id": 2676,
+        "score": 0.000348,
+        "title": "Instinct (1999)",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "avg_rating": 3.1353
+      }
+    ]
+  },
+  {
+    "user_id": 4468,
+    "recommendations": [
+      {
+        "item_id": 1247,
+        "score": 0.000392,
+        "title": "Graduate, The (1967)",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "avg_rating": 4.2458
+      },
+      {
+        "item_id": 17,
+        "score": 0.000271,
+        "title": "Sense and Sensibility (1995)",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "avg_rating": 4.0275
+      },
+      {
+        "item_id": 1950,
+        "score": 0.000257,
+        "title": "In the Heat of the Night (1967)",
+        "genres": [
+          "Drama",
+          "Mystery"
+        ],
+        "avg_rating": 4.1293
+      },
+      {
+        "item_id": 902,
+        "score": 0.000256,
+        "title": "Breakfast at Tiffany's (1961)",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "avg_rating": 3.9083
+      },
+      {
+        "item_id": 971,
+        "score": 0.000202,
+        "title": "Cat on a Hot Tin Roof (1958)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 4.048
+      },
+      {
+        "item_id": 1674,
+        "score": 0.000197,
+        "title": "Witness (1985)",
+        "genres": [
+          "Drama",
+          "Romance",
+          "Thriller"
+        ],
+        "avg_rating": 3.9962
+      },
+      {
+        "item_id": 3548,
+        "score": 0.000177,
+        "title": "Auntie Mame (1958)",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "avg_rating": 3.8358
+      },
+      {
+        "item_id": 912,
+        "score": 0.000101,
+        "title": "Casablanca (1942)",
+        "genres": [
+          "Drama",
+          "Romance",
+          "War"
+        ],
+        "avg_rating": 4.4128
+      },
+      {
+        "item_id": 1296,
+        "score": 9.3e-05,
+        "title": "Room with a View, A (1986)",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "avg_rating": 3.9964
+      },
+      {
+        "item_id": 3668,
+        "score": 8.9e-05,
+        "title": "Romeo and Juliet (1968)",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "avg_rating": 3.9157
+      }
+    ]
+  },
+  {
+    "user_id": 713,
+    "recommendations": [
+      {
+        "item_id": 1674,
+        "score": 8.2e-05,
+        "title": "Witness (1985)",
+        "genres": [
+          "Drama",
+          "Romance",
+          "Thriller"
+        ],
+        "avg_rating": 3.9962
+      },
+      {
+        "item_id": 1307,
+        "score": 2.8e-05,
+        "title": "When Harry Met Sally... (1989)",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "avg_rating": 4.0733
+      },
+      {
+        "item_id": 920,
+        "score": 1.7e-05,
+        "title": "Gone with the Wind (1939)",
+        "genres": [
+          "Drama",
+          "Romance",
+          "War"
+        ],
+        "avg_rating": 3.9974
+      },
+      {
+        "item_id": 1291,
+        "score": 1.7e-05,
+        "title": "Indiana Jones and the Last Crusade (1989)",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "avg_rating": 4.1333
+      },
+      {
+        "item_id": 539,
+        "score": 1.6e-05,
+        "title": "Sleepless in Seattle (1993)",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "avg_rating": 3.7606
+      },
+      {
+        "item_id": 356,
+        "score": 1.5e-05,
+        "title": "Forrest Gump (1994)",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "War"
+        ],
+        "avg_rating": 4.088
+      },
+      {
+        "item_id": 597,
+        "score": 1.4e-05,
+        "title": "Pretty Woman (1990)",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "avg_rating": 3.6415
+      },
+      {
+        "item_id": 2872,
+        "score": 1.2e-05,
+        "title": "Excalibur (1981)",
+        "genres": [
+          "Action",
+          "Drama",
+          "Fantasy",
+          "Romance"
+        ],
+        "avg_rating": 3.8127
+      },
+      {
+        "item_id": 357,
+        "score": 1e-05,
+        "title": "Four Weddings and a Funeral (1994)",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "avg_rating": 3.7437
+      },
+      {
+        "item_id": 2067,
+        "score": 1e-05,
+        "title": "Doctor Zhivago (1965)",
+        "genres": [
+          "Drama",
+          "Romance",
+          "War"
+        ],
+        "avg_rating": 4.0656
+      }
+    ]
+  },
+  {
+    "user_id": 4838,
+    "recommendations": [
+      {
+        "item_id": 150,
+        "score": 0.000563,
+        "title": "Apollo 13 (1995)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 4.0735
+      },
+      {
+        "item_id": 1682,
+        "score": 0.000403,
+        "title": "Truman Show, The (1998)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.8617
+      },
+      {
+        "item_id": 3105,
+        "score": 0.00039,
+        "title": "Awakenings (1990)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.7809
+      },
+      {
+        "item_id": 2501,
+        "score": 0.000367,
+        "title": "October Sky (1999)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 4.1378
+      },
+      {
+        "item_id": 1271,
+        "score": 0.000329,
+        "title": "Fried Green Tomatoes (1991)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.8061
+      },
+      {
+        "item_id": 3100,
+        "score": 0.000289,
+        "title": "River Runs Through It, A (1992)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.756
+      },
+      {
+        "item_id": 508,
+        "score": 0.000269,
+        "title": "Philadelphia (1993)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.8948
+      },
+      {
+        "item_id": 62,
+        "score": 0.000257,
+        "title": "Mr. Holland's Opus (1995)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.6969
+      },
+      {
+        "item_id": 300,
+        "score": 0.000226,
+        "title": "Quiz Show (1994)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.7589
+      },
+      {
+        "item_id": 1678,
+        "score": 0.000203,
+        "title": "Joy Luck Club, The (1993)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.8291
+      }
+    ]
+  },
+  {
+    "user_id": 3457,
+    "recommendations": [
+      {
+        "item_id": 778,
+        "score": 0.000328,
+        "title": "Trainspotting (1996)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.9601
+      },
+      {
+        "item_id": 16,
+        "score": 0.000302,
+        "title": "Casino (1995)",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "avg_rating": 3.7933
+      },
+      {
+        "item_id": 1095,
+        "score": 0.000272,
+        "title": "Glengarry Glen Ross (1992)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.8844
+      },
+      {
+        "item_id": 1466,
+        "score": 0.000247,
+        "title": "Donnie Brasco (1997)",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "avg_rating": 3.7955
+      },
+      {
+        "item_id": 1729,
+        "score": 0.000238,
+        "title": "Jackie Brown (1997)",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "avg_rating": 3.6892
+      },
+      {
+        "item_id": 1245,
+        "score": 0.000214,
+        "title": "Miller's Crossing (1990)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 4.0056
+      },
+      {
+        "item_id": 1834,
+        "score": 0.000198,
+        "title": "Spanish Prisoner, The (1997)",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "avg_rating": 3.9391
+      },
+      {
+        "item_id": 3246,
+        "score": 0.000192,
+        "title": "Malcolm X (1992)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.9032
+      },
+      {
+        "item_id": 628,
+        "score": 0.000162,
+        "title": "Primal Fear (1996)",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "avg_rating": 3.8969
+      },
+      {
+        "item_id": 1120,
+        "score": 0.000156,
+        "title": "People vs. Larry Flynt, The (1996)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.5833
+      }
+    ]
+  },
+  {
+    "user_id": 261,
+    "recommendations": [
+      {
+        "item_id": 778,
+        "score": 0.000388,
+        "title": "Trainspotting (1996)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.9601
+      },
+      {
+        "item_id": 337,
+        "score": 0.000344,
+        "title": "What's Eating Gilbert Grape (1993)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.8413
+      },
+      {
+        "item_id": 300,
+        "score": 0.000325,
+        "title": "Quiz Show (1994)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.7589
+      },
+      {
+        "item_id": 1682,
+        "score": 0.000316,
+        "title": "Truman Show, The (1998)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.8617
+      },
+      {
+        "item_id": 3360,
+        "score": 0.000248,
+        "title": "Hoosiers (1986)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.9186
+      },
+      {
+        "item_id": 3246,
+        "score": 0.000245,
+        "title": "Malcolm X (1992)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.9032
+      },
+      {
+        "item_id": 508,
+        "score": 0.000231,
+        "title": "Philadelphia (1993)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.8948
+      },
+      {
+        "item_id": 1095,
+        "score": 0.000229,
+        "title": "Glengarry Glen Ross (1992)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.8844
+      },
+      {
+        "item_id": 1120,
+        "score": 0.000194,
+        "title": "People vs. Larry Flynt, The (1996)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.5833
+      },
+      {
+        "item_id": 1635,
+        "score": 0.000186,
+        "title": "Ice Storm, The (1997)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.8008
+      }
+    ]
+  },
+  {
+    "user_id": 245,
+    "recommendations": [
+      {
+        "item_id": 3506,
+        "score": 6.3e-05,
+        "title": "North Dallas Forty (1979)",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "avg_rating": 3.3653
+      },
+      {
+        "item_id": 3430,
+        "score": 1.2e-05,
+        "title": "Death Wish (1974)",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "avg_rating": 3.3409
+      },
+      {
+        "item_id": 3431,
+        "score": 3e-06,
+        "title": "Death Wish II (1982)",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "avg_rating": 2.6706
+      },
+      {
+        "item_id": 3487,
+        "score": 3e-06,
+        "title": "Dorado, El (1967)",
+        "genres": [
+          "Western"
+        ],
+        "avg_rating": 3.7206
+      },
+      {
+        "item_id": 1008,
+        "score": 3e-06,
+        "title": "Davy Crockett, King of the Wild Frontier (1955)",
+        "genres": [
+          "Western"
+        ],
+        "avg_rating": 3.3299
+      },
+      {
+        "item_id": 3846,
+        "score": 3e-06,
+        "title": "Easy Money (1983)",
+        "genres": [
+          "Comedy"
+        ],
+        "avg_rating": 3.1449
+      },
+      {
+        "item_id": 2870,
+        "score": 2e-06,
+        "title": "Barefoot in the Park (1967)",
+        "genres": [
+          "Comedy"
+        ],
+        "avg_rating": 3.5907
+      },
+      {
+        "item_id": 1007,
+        "score": 2e-06,
+        "title": "Apple Dumpling Gang, The (1975)",
+        "genres": [
+          "Children's",
+          "Comedy",
+          "Western"
+        ],
+        "avg_rating": 2.9784
+      },
+      {
+        "item_id": 3806,
+        "score": 2e-06,
+        "title": "MacKenna's Gold (1969)",
+        "genres": [
+          "Western"
+        ],
+        "avg_rating": 3.2586
+      },
+      {
+        "item_id": 3432,
+        "score": 2e-06,
+        "title": "Death Wish 3 (1985)",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "avg_rating": 2.2639
+      }
+    ]
+  },
+  {
+    "user_id": 768,
+    "recommendations": [
+      {
+        "item_id": 3298,
+        "score": 0.000241,
+        "title": "Boiler Room (2000)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.4593
+      },
+      {
+        "item_id": 2541,
+        "score": 0.000227,
+        "title": "Cruel Intentions (1999)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.2218
+      },
+      {
+        "item_id": 3173,
+        "score": 0.000139,
+        "title": "Any Given Sunday (1999)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.1263
+      },
+      {
+        "item_id": 2702,
+        "score": 0.000126,
+        "title": "Summer of Sam (1999)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.0709
+      },
+      {
+        "item_id": 3186,
+        "score": 0.00011,
+        "title": "Girl, Interrupted (1999)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.478
+      },
+      {
+        "item_id": 3409,
+        "score": 9.4e-05,
+        "title": "Final Destination (2000)",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "avg_rating": 3.2723
+      },
+      {
+        "item_id": 2688,
+        "score": 9.3e-05,
+        "title": "General's Daughter, The (1999)",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "avg_rating": 3.1418
+      },
+      {
+        "item_id": 3513,
+        "score": 8.1e-05,
+        "title": "Rules of Engagement (2000)",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "avg_rating": 3.3476
+      },
+      {
+        "item_id": 3285,
+        "score": 8e-05,
+        "title": "Beach, The (2000)",
+        "genres": [
+          "Adventure",
+          "Drama"
+        ],
+        "avg_rating": 2.7021
+      },
+      {
+        "item_id": 2188,
+        "score": 6.3e-05,
+        "title": "54 (1998)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 2.7645
+      }
+    ]
+  },
+  {
+    "user_id": 1792,
+    "recommendations": [
+      {
+        "item_id": 3408,
+        "score": 0.00043,
+        "title": "Erin Brockovich (2000)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.8639
+      },
+      {
+        "item_id": 2541,
+        "score": 0.00022,
+        "title": "Cruel Intentions (1999)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.2218
+      },
+      {
+        "item_id": 3565,
+        "score": 0.000169,
+        "title": "Where the Heart Is (2000)",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "avg_rating": 3.2671
+      },
+      {
+        "item_id": 3185,
+        "score": 0.000142,
+        "title": "Snow Falling on Cedars (1999)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.4121
+      },
+      {
+        "item_id": 3594,
+        "score": 8.6e-05,
+        "title": "Center Stage (2000)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.3022
+      },
+      {
+        "item_id": 2310,
+        "score": 7.5e-05,
+        "title": "Mighty, The (1998)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.7985
+      },
+      {
+        "item_id": 3285,
+        "score": 7e-05,
+        "title": "Beach, The (2000)",
+        "genres": [
+          "Adventure",
+          "Drama"
+        ],
+        "avg_rating": 2.7021
+      },
+      {
+        "item_id": 3512,
+        "score": 6.9e-05,
+        "title": "Return to Me (2000)",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "avg_rating": 3.6806
+      },
+      {
+        "item_id": 3825,
+        "score": 5.4e-05,
+        "title": "Coyote Ugly (2000)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 2.7612
+      },
+      {
+        "item_id": 2771,
+        "score": 4.9e-05,
+        "title": "Brokedown Palace (1999)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 2.8889
+      }
+    ]
+  },
+  {
+    "user_id": 1906,
+    "recommendations": [
+      {
+        "item_id": 3897,
+        "score": 0.000339,
+        "title": "Almost Famous (2000)",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "avg_rating": 4.2264
+      },
+      {
+        "item_id": 3916,
+        "score": 0.000176,
+        "title": "Remember the Titans (2000)",
+        "genres": [
+          "Drama"
+        ],
+        "avg_rating": 3.9245
+      },
+      {
+        "item_id": 3510,
+        "score": 0.000158,
+        "title": "Frequency (2000)",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "avg_rating": 3.7588
+      },
+      {
+        "item_id": 919,
+        "score": 7.8e-05,
+        "title": "Wizard of Oz, The (1939)",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Drama",
+          "Musical"
+        ],
+        "avg_rating": 4.248
+      },
+      {
+        "item_id": 2019,
+        "score": 6.7e-05,
+        "title": "Seven Samurai (The Magnificent Seven) (Shichinin no samurai) (1954)",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "avg_rating": 4.5605
+      },
+      {
+        "item_id": 3952,
+        "score": 6.3e-05,
+        "title": "Contender, The (2000)",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "avg_rating": 3.7809
+      },
+      {
+        "item_id": 3461,
+        "score": 4.9e-05,
+        "title": "Lord of the Flies (1963)",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Thriller"
+        ],
+        "avg_rating": 3.6657
+      },
+      {
+        "item_id": 3481,
+        "score": 4.2e-05,
+        "title": "High Fidelity (2000)",
+        "genres": [
+          "Comedy"
+        ],
+        "avg_rating": 3.9286
+      },
+      {
+        "item_id": 1287,
+        "score": 3.5e-05,
+        "title": "Ben-Hur (1959)",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama"
+        ],
+        "avg_rating": 4.1108
+      },
+      {
+        "item_id": 720,
+        "score": 3.3e-05,
+        "title": "Wallace & Gromit: The Best of Aardman Animation (1996)",
+        "genres": [
+          "Animation"
+        ],
+        "avg_rating": 4.4269
+      }
+    ]
+  },
+  {
+    "user_id": 4140,
+    "recommendations": [
+      {
+        "item_id": 2374,
+        "score": 5.2e-05,
+        "title": "Gung Ho (1986)",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "avg_rating": 2.9303
+      },
+      {
+        "item_id": 3506,
+        "score": 3.4e-05,
+        "title": "North Dallas Forty (1979)",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "avg_rating": 3.3653
+      },
+      {
+        "item_id": 1135,
+        "score": 7e-06,
+        "title": "Private Benjamin (1980)",
+        "genres": [
+          "Comedy"
+        ],
+        "avg_rating": 3.1892
+      },
+      {
+        "item_id": 3431,
+        "score": 4e-06,
+        "title": "Death Wish II (1982)",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "avg_rating": 2.6706
+      },
+      {
+        "item_id": 1007,
+        "score": 2e-06,
+        "title": "Apple Dumpling Gang, The (1975)",
+        "genres": [
+          "Children's",
+          "Comedy",
+          "Western"
+        ],
+        "avg_rating": 2.9784
+      },
+      {
+        "item_id": 3846,
+        "score": 2e-06,
+        "title": "Easy Money (1983)",
+        "genres": [
+          "Comedy"
+        ],
+        "avg_rating": 3.1449
+      },
+      {
+        "item_id": 2471,
+        "score": 2e-06,
+        "title": "Crocodile Dundee II (1988)",
+        "genres": [
+          "Adventure",
+          "Comedy"
+        ],
+        "avg_rating": 2.628
+      },
+      {
+        "item_id": 3432,
+        "score": 2e-06,
+        "title": "Death Wish 3 (1985)",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "avg_rating": 2.2639
+      },
+      {
+        "item_id": 2796,
+        "score": 2e-06,
+        "title": "Funny Farm (1988)",
+        "genres": [
+          "Comedy"
+        ],
+        "avg_rating": 2.95
+      },
+      {
+        "item_id": 2473,
+        "score": 2e-06,
+        "title": "Soul Man (1986)",
+        "genres": [
+          "Comedy"
+        ],
+        "avg_rating": 2.4093
+      }
+    ]
+  }
+]

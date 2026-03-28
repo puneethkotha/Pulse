@@ -1,0 +1,20 @@
+two_tower:
+  batch_size: 512
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  num_epochs: 20
+  patience: 3
+  num_negatives: 4
+  train_split: 0.8
+  val_split: 0.1
+  test_split: 0.1
+  min_user_interactions: 5
+  seed: 42
+
+reranker:
+  batch_size: 256
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  num_epochs: 15
+  patience: 3
+  seed: 42

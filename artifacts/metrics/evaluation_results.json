@@ -1,0 +1,41 @@
+{
+  "bm25": {
+    "precision@5": 0.010057,
+    "recall@5": 0.00708,
+    "ndcg@5": 0.010374,
+    "precision@10": 0.010005,
+    "recall@10": 0.016035,
+    "ndcg@10": 0.013286,
+    "precision@20": 0.009456,
+    "recall@20": 0.031072,
+    "ndcg@20": 0.018311,
+    "num_users_evaluated": 5827,
+    "avg_latency_ms": 81.211
+  },
+  "two_tower": {
+    "precision@5": 0.013798,
+    "recall@5": 0.014666,
+    "ndcg@5": 0.016865,
+    "precision@10": 0.012802,
+    "recall@10": 0.026848,
+    "ndcg@10": 0.021087,
+    "precision@20": 0.012296,
+    "recall@20": 0.051497,
+    "ndcg@20": 0.029677,
+    "num_users_evaluated": 5827,
+    "avg_latency_ms": 0.106
+  },
+  "two_tower_reranker": {
+    "precision@5": 0.028351,
+    "recall@5": 0.027228,
+    "ndcg@5": 0.034974,
+    "precision@10": 0.025004,
+    "recall@10": 0.047128,
+    "ndcg@10": 0.040818,
+    "precision@20": 0.021787,
+    "recall@20": 0.082946,
+    "ndcg@20": 0.052927,
+    "num_users_evaluated": 5827,
+    "avg_latency_ms": 3.64
+  }
+}
