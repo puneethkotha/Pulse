@@ -27,9 +27,16 @@ export function RecommendPanel({ backendUp, sampleRecs }: RecommendPanelProps) {
       ? sampleRecs.find((r) => r.user_id === offlineUserId)
       : null;
 
+  // When the live call fails, fall back silently to sample recs for that user
+  const fallbackRec = error && sampleRecs
+    ? sampleRecs.find((r) => r.user_id === parseInt(userId, 10))
+    : null;
+
   const showRecs = backendUp
-    ? activeResult?.recommendations ?? []
+    ? activeResult?.recommendations ?? fallbackRec?.recommendations ?? []
     : offlineResult?.recommendations ?? [];
+
+  const showingFallback = backendUp && !activeResult && !!fallbackRec;
 
   return (
     <section className="panel">
@@ -110,7 +117,13 @@ export function RecommendPanel({ backendUp, sampleRecs }: RecommendPanelProps) {
           </div>
         )}
 
-        {error && <p className="error-msg">{error}</p>}
+        {showingFallback && (
+          <div className="offline-note">
+            Showing pre-computed recommendations for this user.
+          </div>
+        )}
+
+        {error && !fallbackRec && <p className="error-msg">{error}</p>}
 
         {backendUp && activeResult && (
           <div className="rec-meta">
